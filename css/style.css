@@ -1,40 +1,251 @@
-.about_boddy {
-    width: 1440px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+br {
+    margin: 0px;
+    padding: 0px;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    margin: 0px;
+    padding: 0px;
+}
+
 .header {
-    display: flex;   
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0px;
+    display: flex;
+    padding: 15px 20px 15px 20px;
+    justify-content: center;
+    align-items: center;
 }
+
 .header__logo {
+    margin-right: 180px;
 }
-.logo {
-}
+
+.logo {}
+
 .header__contacts {
+    display: flex;
+    gap: 76px;
 }
-.contacts {
-}
-.item__title {
-}
+
+
+
+.contacts {}
+
+.item__title {}
+
 .title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    color: #28303D;
 }
+
 .item__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #28303D;
 }
-.header__contacts_item {
+
+.header__contacts-item {
+    display: flex;
+    flex-direction: column;
 }
+
 .header__schedule {
+    display: flex;
+    flex-direction: column;
+    margin: 0 51px 0 79px;
 }
-.header__shedule_title {
-}
-.header__search {
-}
-.header__search_image {
-}
+
+.header__shedule_title {}
+
+.header__search {}
+
+.header__search_image {}
+
 .header__4visually-impaired {
+    display: flex;
+    gap: 9px;
 }
-.header__4visually-impaired_button {
+
+.header__4visually-impaired__button {
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    cursor: pointer;
+    border: 1.5px solid #85888D;
+    border-radius: 20px;
 }
-.header__4visually-impaired_title {
+
+.header__4visually-impaired_button {}
+
+.header__4visually-impaired_title {}
+
+.header__4visually-impaired-search-button {
+    background: none;
+    cursor: pointer;
+    border: none;
 }
-.header_burger {
+
+.header__4visually-impaired-image {}
+
+.header__burger-button {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    width: 50px;
+    height: 50px;
+    background: #28303D;
+    gap: 7px;
+    border-radius: 0px 16px 16px 16px;
+    cursor: pointer;
+    border: none;
 }
-.header_burger_line {
+
+.header__burger-line {
+    width: 32px;
+    height: 4px;
+    background-color: white;
+}
+
+
+@media (max-width: 961px) {
+    .header{
+       width: 960px;
+       padding: 15px 20px 15px 20px;
+    }
+    .header__contacts-item:nth-child(2) {
+        display: none;
+    }
+
+    .header__logo {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 641px) {
+    .header{
+        width: 640px;
+        padding: 15px 10px 15px 10px;
+     }
+    .header__contacts-item:nth-child(2) {
+        display: none;
+    }
+
+    .header__contacts-item:first-child {
+        display: none;
+    }
+
+    .header__logo {
+        margin-right: 35px;
+    }
+
+    .header__shedule_title {
+        display: none;
+    }
+}
+
+@media (max-width: 490px) {
+    .header{
+        width: 480px;
+        padding: 15px 10px 15px 10px;
+     }
+    .header__contacts-item:nth-child(2) {
+        display: none;
+    }
+
+    .header__contacts-item:first-child {
+        display: none;
+    }
+
+    .header__logo {
+        margin-right: 35px;
+    }
+
+    .header__shedule_title {
+        display: none;
+    }
+    .header__4visually-impaired{
+        display: none;
+    }
+    .header__4visually-impaired {
+        display: none;
+    }
+    .header__4visually-impaired-search-button {
+        display: none;
+    }
+    .header__search_image {
+        display: none;
+    }
+    .header__4visually-impaired__button {
+        display: none;
+    }
+    .header__4visually-impaired-image {
+        display: none;
+    }
+    .header__4visually-impaired_title {
+        display: none;
+    }
+}
+
+@media (max-width: 330px) {
+    .header{
+        width: 320px;
+        padding: 15px 10px 15px 10px;
+     }
+    .header__contacts{
+        display: none;
+    }
+    .header__contacts-item {
+        display: none;
+    }
+
+    .header__shedule_title {
+        display: none;
+    }
+    .header__4visually-impaired{
+        display: none;
+    }
+    .header__4visually-impaired {
+        display: none;
+    }
+    .header__4visually-impaired-search-button {
+        display: none;
+    }
+    .header__search_image {
+        display: none;
+    }
+    .header__4visually-impaired__button {
+        display: none;
+    }
+    .header__4visually-impaired-image {
+        display: none;
+    }
+    .header__4visually-impaired_title {
+        display: none;
+    }
+    .header__burger-button{
+        margin-left: 0px;
+    }
+    .header__logo {
+        margin-right: -0px;
+    }
 }
