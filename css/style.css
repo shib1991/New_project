@@ -11,6 +11,17 @@ h1 {
     padding: 0px;
 }
 
+p {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
 a {
     text-decoration: none;
 }
@@ -613,7 +624,7 @@ button {
     position: absolute;
     z-index: 1;
     right: 72.92%;
-    top: -25%;
+    top: -30%;
     left: 30%;
 }
 
@@ -650,7 +661,7 @@ button {
 }
 
 
-.Main_page-four_worker_info-txt{
+.Main_page-four_worker_info-txt {
     display: flex;
     flex-direction: column;
     margin: 101px 20px 29px 20px;
@@ -659,3 +670,114 @@ button {
 
 
 /* ==================================Main_block-Page fifth =======================*/
+
+
+.Main_page-six {
+    background: #77C043;
+    padding-top: 52px;
+}
+
+.Main_page-six_h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.714285px;
+    color: #FFFFFF;
+}
+
+.Main_page-six_units-block {
+    width: 1160px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 140px;
+    column-gap: 40px;
+    row-gap: 32px;
+}
+
+.Main_page-six_unit {
+    max-width: 360px;
+    background: white;
+    box-shadow: 0px 11px 35px rgba(0, 0, 0, 0.05);
+    border-radius: 16px 0px 16px 16px;
+}
+
+.Main_page-six_unit_name {
+    max-height: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.321429px;
+    color: #28303D;
+    margin: 27px 18px 41px 23px;
+}
+
+.Main_page-six_unit_name-DKO{
+    max-height: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.321429px;
+    color: #28303D;
+    margin: 27px 18px 21px 23px;
+}
+
+
+.Main_page-six_unit_block-address-number {
+    display: flex;
+    margin-bottom: 38px;
+}
+
+.Main_page-six_unit_line {
+    margin: 0 11px 0px 27px;
+    background: #77C043;
+    border: 4px;
+    width: 3px;
+    height: 75px;
+}
+
+.Main_page-six_unit_address-number_txt {}
+
+.Main_page-six_unit_address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #28303D;
+    width: 210px;
+    margin-bottom: 14px;
+
+
+}
+
+.Main_page-six_unit_number {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.321429px;
+    color: #28303D;
+}
+
+
+.Main_page-six_button{
+    width: 208px;
+    margin: 52px 0px 64px 616px;
+    top: 85.5%;
+    bottom: 8%;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 24px;
+    color: #FFFFFF;
+}
+
+
+
+/* ==================================Main_block-Page six =======================*/
