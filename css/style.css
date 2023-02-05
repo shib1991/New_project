@@ -1,9 +1,18 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 br {
     margin: 0px;
     padding: 0px;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
 }
 
 body {
@@ -21,7 +30,7 @@ button {
     margin: 0 auto;
     padding: 0px;
     display: flex;
-    padding: 15px 20px 15px 20px;
+    padding: 15px 0px 15px 0px;
     justify-content: center;
     align-items: center;
 }
@@ -129,10 +138,11 @@ button {
 
 
 @media (max-width: 961px) {
-    .header{
-       width: 960px;
-       padding: 15px 20px 15px 20px;
+    .header {
+        width: 960px;
+        padding: 15px 20px 15px 20px;
     }
+
     .header__contacts-item:nth-child(2) {
         display: none;
     }
@@ -143,10 +153,11 @@ button {
 }
 
 @media (max-width: 641px) {
-    .header{
+    .header {
         width: 640px;
         padding: 15px 10px 15px 10px;
-     }
+    }
+
     .header__contacts-item:nth-child(2) {
         display: none;
     }
@@ -165,10 +176,11 @@ button {
 }
 
 @media (max-width: 490px) {
-    .header{
+    .header {
         width: 480px;
         padding: 15px 10px 15px 10px;
-     }
+    }
+
     .header__contacts-item:nth-child(2) {
         display: none;
     }
@@ -184,37 +196,46 @@ button {
     .header__shedule_title {
         display: none;
     }
-    .header__4visually-impaired{
-        display: none;
-    }
+
     .header__4visually-impaired {
         display: none;
     }
+
+    .header__4visually-impaired {
+        display: none;
+    }
+
     .header__4visually-impaired-search-button {
         display: none;
     }
+
     .header__search_image {
         display: none;
     }
+
     .header__4visually-impaired__button {
         display: none;
     }
+
     .header__4visually-impaired-image {
         display: none;
     }
+
     .header__4visually-impaired_title {
         display: none;
     }
 }
 
 @media (max-width: 330px) {
-    .header{
+    .header {
         width: 320px;
         padding: 15px 10px 15px 10px;
-     }
-    .header__contacts{
+    }
+
+    .header__contacts {
         display: none;
     }
+
     .header__contacts-item {
         display: none;
     }
@@ -222,31 +243,290 @@ button {
     .header__shedule_title {
         display: none;
     }
-    .header__4visually-impaired{
-        display: none;
-    }
+
     .header__4visually-impaired {
         display: none;
     }
+
+    .header__4visually-impaired {
+        display: none;
+    }
+
     .header__4visually-impaired-search-button {
         display: none;
     }
+
     .header__search_image {
         display: none;
     }
+
     .header__4visually-impaired__button {
         display: none;
     }
+
     .header__4visually-impaired-image {
         display: none;
     }
+
     .header__4visually-impaired_title {
         display: none;
     }
-    .header__burger-button{
+
+    .header__burger-button {
         margin-left: 0px;
     }
+
     .header__logo {
         margin-right: -0px;
     }
 }
+
+/* =======================================HEADER=============================== */
+
+/* ===================================Main_block=============================== */
+
+.Main {
+    margin: 0 auto;
+    width: 1440px;
+}
+
+/* ==================================Main_block-Page One =======================*/
+.Main_page-one {
+    display: flex;
+    margin: 119px 0px 121px 0px;
+    gap: 56px;
+}
+
+.Main_page-one_text-block {
+    width: 544px;
+    margin-left: 140px;
+}
+
+.Main_page-one_text-block_h1 {
+    margin-top: 110px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #28303D;
+}
+
+.Main_page-one_text-block_txt {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    color: #28303D;
+    margin: 29px 0px 0px 0px;
+}
+
+.text {}
+
+.Main_page-one_text-block_button {
+    margin-top: 49px;
+}
+
+.Button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    border: 1.5px solid #85888D;
+    border-radius: 24px;
+    background: none;
+    cursor: pointer;
+    padding: 17px 28px 17px 28px;
+    text-align: center;
+
+}
+
+.Main_page-one_photo {}
+
+.Main_photo {}
+
+
+
+
+/* ==================================Main_block-Page two =======================*/
+
+
+.Main_page-two {
+    background: #FAF4F4;
+    z-index: 1;
+    position: relative;
+}
+
+.Main_page-two_header {
+    padding: 49px 0px 0px 0px;
+}
+
+.Main_page-two_headerh1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.714285px;
+    color: #28303D;
+    margin: 0px;
+}
+
+.Main_page-two_Information-bar {
+    margin: 57px 140px 0px 140px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.Main_page-two_button {
+    margin: 66px 0 99px 653px;
+}
+
+.Information-bar {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 11px 35px rgba(0, 0, 0, 0.05);
+    border-radius: 0px 0px 16px 16px;
+}
+
+.Information-bar_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.321429px;
+    color: #13294E;
+    margin: 27px 25px 49px 25px;
+    padding: 0px;
+}
+
+.Information-bar_date {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #4F5059;
+    margin: 0px 0px 13px 25px;
+    padding: 0px;
+}
+
+.vector {
+    position: absolute;
+    z-index: -1;
+    left: 69.17%;
+    bottom: 64.19%;
+}
+
+/* ==================================Main_block-Page third =======================*/
+
+.Main_page-three {
+    z-index: 1;
+    position: relative;
+    padding: 185px 140px;
+}
+
+.vector1 {
+    position: absolute;
+    z-index: -1;
+    left: 69.17%;
+    right: 0%;
+    top: 0%;
+    bottom: 50.67%;
+}
+
+.Main_page-three_blocks {
+    display: flex;
+    gap: 136px;
+
+}
+
+.Main_page-three_text-block {
+    display: flex;
+}
+
+
+.Main_page-three_text-blocks {
+}
+
+.Main_page-three_text-block_h1 {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #28303D;
+    margin-bottom: 61px;
+}
+
+.Main_page-three_text-block{
+    display: flex;
+    gap: 40px;
+
+}
+
+.Main_page-three_text-block:first-child{
+    margin: 0px 0px 34px 0px;
+}
+
+
+.Main_page-three_text-block_books-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.Main_page-three_text-block_name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.321429px;
+    color: #28303D;
+    margin: 0px 0px 10px 0px;
+}
+
+
+.Main_page-three_text-block_autors {
+    margin: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #28303D;
+    margin: 0px 0px 8px 0px;
+}
+
+.Main_page-three_text-block_download {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    text-decoration-line: underline;
+    color: #28303D;
+}
+
+.Main_page-three_button {
+    margin: 34px 0px 0px 0px;
+}
+
+.Button {}
+
+.Main_page-three_photo {}
+
+.Main_photo {}
+
+/* ==================================Main_block-Page fourth =======================*/
