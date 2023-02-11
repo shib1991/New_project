@@ -1682,6 +1682,239 @@ button {
 
 
 
+/* ================+++Adaptive_Block-six+++=================================== */
+
+@media (max-width: 961px) {
+    .Main_page-six {
+        position: relative;
+        z-index: 1;
+    }
+
+    .Main_page-six_vector {
+        position: absolute;
+        z-index: -1;
+        left: 54%;
+        right: 0%;
+        bottom: 34.29%;
+    }
+
+    .Main_page-six_block {
+        margin: 147px 0px 92px 0px;
+        gap: 90px;
+        display: flex;
+    }
+
+    .Main_page-six_photo {
+        width: 460px;
+    }
+
+    .Main_page-six_text-block_h1 {
+        margin-top: 49px;
+
+    }
+
+    .Main_page-six_text-block {
+        margin: 0px 0px 0px 30px;
+    }
+
+
+    .Main_page-six_text-block_button {
+        margin: 38px 17px 0px 0px;
+    }
+
+
+    .Main_page-six_text-block_txt {
+        margin: 21px 0px 0px 0px;
+    }
+
+}
+
+
+@media (max-width: 641px) {
+    .Main_page-six {
+        position: relative;
+        z-index: 1;
+        width: 640px;
+    }
+
+    .Main_page-six_vector {
+        position: absolute;
+        z-index: -1;
+        left: 26.56%;
+        right: 1.56%;
+        top: 38.7%;
+        bottom: 15.3%;
+    }
+
+    .Main_page-six_block {
+        margin: 77px 0px 58px 90px;
+        gap: 135px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Main_page-six_photo {
+        width: 460px;
+    }
+
+    .Main_page-six_text-block_h1 {
+        width: 334px;
+        margin-top: 0px;
+
+    }
+
+    .Main_page-six_text-block {
+        margin: 0px 0px 0px 30px;
+    }
+
+
+    .Main_page-six_text-block_button {
+        margin: 38px 17px 0px 0px;
+    }
+
+
+    .Main_page-six_text-block_txt {
+        margin: 21px 0px 0px 0px;
+        width: 390px;
+    }
+
+}
+
+
+@media (max-width: 321px) {
+    .Main_page-six {
+        position: relative;
+        z-index: 1;
+    }
+
+    .Main_page-six_vector {
+        position: absolute;
+        z-index: -1;
+        left: 4.17%;
+        right: 0%;
+        top: 40.31%;
+        bottom: 11.77%;
+    }
+
+    .Main_page-six_block {
+        margin: 77px 10px 16px 10px;
+        gap: 135px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Main_page-six_photo {
+        width: 460px;
+    }
+
+    .Main_page-six_text-block_h1 {
+        width: 334px;
+        margin-top: 0px;
+
+    }
+
+    .Main_page-six_text-block {
+        margin: 0px 0px 0px 0px;
+    }
+
+
+    .Main_page-six_text-block_button {
+        margin: 38px 17px 0px 0px;
+    }
+
+
+    .Main_page-six_text-block_txt {
+        margin: 21px 0px 0px 0px;
+        width: 390px;
+    }
+
+}
+
+@media (max-width: 481px) {
+    .Main_page-six {
+        position: relative;
+        z-index: 1;
+        width: 640px;
+    }
+
+    .Main_page-six_vector {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        z-index: -1;
+        left: 3.12%;
+        right: 3.12%;
+        top: 49.88%;
+        bottom: 13.98%;
+    }
+
+    .Main_page-six_block {
+        margin: 21px 10px 16px 10px;
+        gap: 92px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Main_page-six_photo {
+        width: 300px;
+        height: 300px;
+    }
+
+    .Main_page-six_text-block_h1 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 35px;
+
+
+        letter-spacing: 0.714285px;
+
+
+        width: 184px;
+        margin-top: 0px;
+
+    }
+
+    .Main_page-six_text-block {
+        margin: 0px 0px 0px 0px;
+    }
+
+
+    .Main_page-six_text-block_button {
+        margin: 38px 17px 0px 0px;
+    }
+
+
+    .Main_page-six_text-block_txt {
+        margin: 21px 0px 0px 0px;
+        width: 270px;
+    }
+
+    .Main_page-six_Butons{
+        display: flex;
+        flex-direction:column-reverse;
+        width: 270px;
+    }
+    .Main_page-six_text-block_button:first-child{
+        width: 143px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ================+++Adaptive_Block-six+++=================================== */
+
+
 /* ==================================Footer =======================*/
 
 
