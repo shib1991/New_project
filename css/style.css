@@ -362,10 +362,10 @@ button {
 
 .Main_photo {}
 
-
+/* =================+++Adaptive_Block-One+++============================== */
 @media (max-width: 961px) {
     .Main {
-        width: 960px;
+        width: 1000px;
     }
 
     .Main_page-one {
@@ -391,6 +391,9 @@ button {
 
 
 @media (max-width: 641px) {
+    .Main {
+        width: 641px;
+    }
 
     .Main_page-one {
         display: flex;
@@ -402,6 +405,7 @@ button {
     .Main_page-one_text-block_h1 {
         margin-top: 42px;
     }
+
     .Main_page-one_text-block {
         width: 458px;
         margin-top: 37px;
@@ -414,6 +418,9 @@ button {
 }
 
 @media (max-width: 481px) {
+    .Main {
+        width: 480px;
+    }
 
     .Main_page-one {
         display: flex;
@@ -425,6 +432,7 @@ button {
     .Main_page-one_text-block_h1 {
         margin-top: 42px;
     }
+
     .Main_page-one_text-block {
         width: 458px;
         margin-top: 37px;
@@ -437,6 +445,9 @@ button {
 }
 
 @media (max-width: 321px) {
+    .Main {
+        width: 320px;
+    }
 
     .Main_page-one {
         display: flex;
@@ -455,6 +466,7 @@ button {
         color: #28303D;
         margin: 0px;
     }
+
     .Main_page-one_text-block {
         width: 300px;
         margin-top: 26px;
@@ -471,560 +483,764 @@ button {
 
 }
 
+/* =================+++Adaptive_Block-One+++============================== */
 
 
 
+/* ==================================Main_block-Page two =======================*/
 
 
-    /* ==================================Main_block-Page two =======================*/
+.Main_page-two {
+    background: #FAF4F4;
+    z-index: 1;
+    position: relative;
+}
+
+.vector {
+    position: absolute;
+    z-index: -1;
+    left: 69.17%;
+    bottom: 64.19%;
+}
+
+.Main_page-two_header {
+    padding: 49px 0px 0px 0px;
+}
+
+.Main_page-two_headerh1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.714285px;
+    color: #28303D;
+    margin: 0px;
+}
+
+.Main_page-two_Information-bar {
+    margin: 57px 140px 0px 140px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.Main_page-two_button {
+    margin: 66px 0 99px 653px;
+}
+
+.Information-bar {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 11px 35px rgba(0, 0, 0, 0.05);
+    border-radius: 0px 0px 16px 16px;
+}
+
+.Information-bar_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.321429px;
+    color: #13294E;
+    margin: 27px 25px 49px 25px;
+    padding: 0px;
+}
+
+.Information-bar_date {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #4F5059;
+    margin: 0px 0px 13px 25px;
+    padding: 0px;
+}
 
 
-    .Main_page-two {
-        background: #FAF4F4;
-        z-index: 1;
-        position: relative;
-    }
-
+/* ================+++Adaptive_Block-Two+++=================================== */
+@media (max-width: 961px) {
     .vector {
-        position: absolute;
-        z-index: -1;
-        left: 69.17%;
-        bottom: 64.19%;
+        display: none;
     }
 
     .Main_page-two_header {
-        padding: 49px 0px 0px 0px;
-    }
+        padding-top: 45px;
+        margin: 0 auto;
 
-    .Main_page-two_headerh1 {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 40px;
-        line-height: 55px;
-        text-align: center;
-        letter-spacing: 0.714285px;
-        color: #28303D;
-        margin: 0px;
     }
 
     .Main_page-two_Information-bar {
-        margin: 57px 140px 0px 140px;
+        max-width: 960px;
+        margin: 41px 30px 0px 30px;
         display: flex;
         flex-wrap: wrap;
-        gap: 40px;
-    }
-
-    .Main_page-two_button {
-        margin: 66px 0 99px 653px;
+        row-gap: 23px;
+        column-gap: 20px;
     }
 
     .Information-bar {
-        width: 360px;
-        display: flex;
-        flex-direction: column;
-        background: #FFFFFF;
-        box-shadow: 0px 11px 35px rgba(0, 0, 0, 0.05);
-        border-radius: 0px 0px 16px 16px;
+        width: 300px;
+    }
+
+    .Information-bar_Pic {
+        width: 300px;
     }
 
     .Information-bar_text {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 20px;
-        letter-spacing: 0.321429px;
-        color: #13294E;
-        margin: 27px 25px 49px 25px;
-        padding: 0px;
+        margin: 22px 20px 20px 16px;
+    }
+
+
+    .Main_page-two_button {
+        margin: 40px 0 53px 425px;
     }
 
     .Information-bar_date {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 21px;
-        color: #4F5059;
-        margin: 0px 0px 13px 25px;
-        padding: 0px;
+        margin: 0px 0px 10px 20px;
     }
 
+}
 
 
-    /* ==================================Main_block-Page third =======================*/
 
-    .Main_page-three {
-        z-index: 1;
-        position: relative;
-        padding: 185px 140px;
+@media (max-width: 641px) {
+    .vector {
+        display: none;
     }
 
-    .vector1 {
-        position: absolute;
-        z-index: -1;
-        left: 69.17%;
-        right: 0%;
-        top: 0%;
-        bottom: 50.67%;
+    .Main_page-two_header {
+        padding-top: 68.45px
     }
 
-    .Main_page-three_blocks {
-        display: flex;
-        gap: 136px;
-
-    }
-
-    .Main_page-three_text-block {
-        display: flex;
-    }
-
-
-    .Main_page-three_text-blocks {}
-
-    .Main_page-three_text-block_h1 {
-
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 44px;
-        color: #28303D;
-        margin-bottom: 61px;
-    }
-
-    .Main_page-three_text-block {
-        display: flex;
-        gap: 40px;
-        margin: 0px 0px 34px 0px;
-
-    }
-
-
-
-    .Main_page-three_text-block_books-info {
-        display: flex;
-        flex-direction: column;
-        gap: 0px;
-    }
-
-    .Main_page-three_text-block_name {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 20px;
-        letter-spacing: 0.321429px;
-        color: #28303D;
-        margin: 0px 0px 10px 0px;
-    }
-
-
-    .Main_page-three_text-block_autors {
-        margin: 0px;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 21px;
-        color: #28303D;
-        margin: 0px 0px 8px 0px;
-    }
-
-    .Main_page-three_text-block_download {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 20px;
-        letter-spacing: 0.01em;
-        text-decoration-line: underline;
-        color: #28303D;
-    }
-
-    .Main_page-three_button {
-        margin: 19px 0px 0px 0px;
-    }
-
-    .Button {}
-
-    .Main_page-three_photo {}
-
-    .Main_photo {}
-
-    /* ==================================Main_block-Page fourth =======================*/
-
-    .Main_page-four {
-        max-width: 1440px;
-        padding: 20px 0px 101px 0px;
-    }
-
-    .Main_page-four_h1 {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 40px;
-        line-height: 55px;
-        text-align: center;
-        letter-spacing: 0.714285px;
-        color: #28303D;
-        margin-bottom: 43px;
-    }
-
-    .Main_page-four_search-panel {
-        width: 760px;
-        margin: 0 auto 94px auto;
-        border: 1px solid #85888D;
-        border-radius: 26px;
-        display: flex;
-        align-items: center;
-        justify-content: left;
-
-    }
-
-    .Main_page-four_search-panel_text {
-        border: 0px;
-        background: none;
-        outline: none;
-        margin-left: 21px;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 21px;
-        display: flex;
-        align-items: center;
-        color: #85888D;
-
-    }
-
-    .Main_page-four_search-panel_dropdown {
-        border: 0px;
-        background: none;
-        cursor: pointer;
-        margin-left: auto;
-        display: flex;
-        gap: 13.59px;
-        align-items: center;
-    }
-
-    .Main_page-four_search-panel_search-button {
-        margin: 7px 7px 5px 13.59px;
-    }
-
-    .Main_page-four_search-panel_arrow {
-        margin: 0px 0px 0px 13.59px;
-    }
-
-    .Main_page-four_workers {
-        margin-left: 140px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        text-align: center;
-        gap: 40px;
-    }
-
-    .Main_page-four_worker_info {
-        max-width: 360px;
-        margin-top: 62px;
-        background: #FFFFFF;
-        border: 1px solid #85888D;
-        border-radius: 16px;
-        z-index: -1;
-        position: relative;
-    }
-
-    .Main_page-four_worker_photo {
-        position: absolute;
-        z-index: 1;
-        right: 72.92%;
-        top: -30%;
-        left: 30%;
-    }
-
-    .Main_page-four_worker_name {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 20px;
-        text-align: center;
-        letter-spacing: 0.321429px;
-        color: #28303D;
-    }
-
-    .Main_page-four_worker_post {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 21px;
-        text-align: center;
-
-        color: #13294E;
-    }
-
-    .Main_page-four_worker_email {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 20px;
-        letter-spacing: 0.01em;
-        color: #00B9F2;
-    }
-
-
-    .Main_page-four_worker_info-txt {
-        display: flex;
-        flex-direction: column;
-        margin: 101px 20px 29px 20px;
-        max-width: 320px;
-    }
-
-
-    /* ==================================Main_block-Page fifth =======================*/
-
-
-    .Main_page-five {
-        background: #77C043;
-        padding-top: 52px;
-    }
-
-    .Main_page-five_h1 {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 40px;
-        line-height: 55px;
-        text-align: center;
-        letter-spacing: 0.714285px;
-        color: #FFFFFF;
-        margin-bottom: 53px;
-    }
-
-    .Main_page-five_units-block {
-        width: 1160px;
+    .Main_page-two_Information-bar {
+        max-width: 620px;
+        margin: 55px 10px 0px 10px;
         display: flex;
         flex-wrap: wrap;
-        margin-left: 140px;
-        column-gap: 40px;
-        row-gap: 32px;
+        row-gap: 23px;
+        column-gap: 20px;
     }
 
-    .Main_page-five_unit {
-        max-width: 360px;
-        background: white;
-        box-shadow: 0px 11px 35px rgba(0, 0, 0, 0.05);
-        border-radius: 16px 0px 16px 16px;
+    .Information-bar {
+        width: 300px;
     }
 
-    .Main_page-five_unit_name {
-        max-height: 60px;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 20px;
-        letter-spacing: 0.321429px;
-        color: #28303D;
-        margin: 27px 18px 41px 23px;
+    .Information-bar_Pic {
+        width: 300px;
     }
 
-    .Main_page-five_unit_name-DKO {
-        max-height: 60px;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 20px;
-        letter-spacing: 0.321429px;
-        color: #28303D;
-        margin: 27px 18px 21px 23px;
+    .Information-bar_text {
+        margin: 22px 20px 20px 16px;
     }
 
 
-    .Main_page-five_unit_block-address-number {
+    .Main_page-two_button {
+        margin: 78px 0 68px 245px;
+    }
+
+    .Information-bar_date {
+        margin: 0px 0px 10px 20px;
+    }
+
+}
+
+
+
+@media (max-width: 481px) {
+    .vector {
+        display: none;
+    }
+
+    .Main_page-two_header {
+        padding-top: 39px;
+
+    }
+
+    .Main_page-two_Information-bar {
+        max-width: 300px;
+        margin: 41px 90px 0px 90px;
         display: flex;
-        margin-bottom: 38px;
+        flex-wrap: wrap;
+        gap: 23px;
     }
 
-    .Main_page-five_unit_line {
-        margin: 0 11px 0px 27px;
-        background: #77C043;
-        border: 4px;
-        width: 3px;
-        height: 75px;
-    }
-
-    .Main_page-five_unit_address-number_txt {}
-
-    .Main_page-five_unit_address {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 21px;
-        color: #28303D;
-        width: 210px;
-        margin-bottom: 14px;
-
-
-    }
-
-    .Main_page-five_unit_number {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 20px;
-        letter-spacing: 0.321429px;
-        color: #28303D;
+    .Information-bar:nth-child(even) {
+        display: none;
     }
 
 
-    .Main_page-five_button {
-        width: 208px;
-        margin: 52px 0px 64px 616px;
-        top: 85.5%;
-        bottom: 8%;
-        border: 1.5px solid #FFFFFF;
-        border-radius: 24px;
-        color: #FFFFFF;
+    .Information-bar {
+        width: 300px;
+    }
+
+    .Information-bar_Pic {
+        width: 300px;
+    }
+
+    .Information-bar_text {
+        margin: 22px 20px 20px 16px;
     }
 
 
-
-    /* ==================================Main_block-Page six =======================*/
-
-
-
-    .Main_page-six {
-        position: relative;
-        z-index: 1;
+    .Main_page-two_button {
+        margin: 64px 0 71px 165px;
     }
 
-    .Main_page-six_vector {
-        position: absolute;
-        z-index: -1;
-        left: 69.17%;
-        bottom: 33.65%;
+    .Information-bar_date {
+        margin: 0px 0px 10px 20px;
     }
 
-    .Main_page-six_block {
-        margin: 69px 0px 121px 0px;
-        gap: 67px;
-        display: flex;
+}
+
+
+
+
+@media (max-width: 321px) {
+    .vector {
+        display: none;
     }
 
-    .Main_page-six_photo {}
-
-    .Main_page-six_text-block {
-        width: 544px;
-        margin-left: 140px;
-    }
-
-    .Main_page-six_text-block_h1 {
-        margin-top: 233px;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 44px;
-
-        color: #28303D;
-    }
-
-    .Main_page-six_text-block_txt {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 22px;
-        line-height: 26px;
-
-        color: #000000;
-
-
-        margin: 28px 0px 0px 0px;
-    }
-
-    .text {}
-
-    .Main_page-six_text-block_button {
-        margin: 58px 17px 0px 0px;
-    }
-
-    .Button {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 18px;
-        border: 1.5px solid #85888D;
-        border-radius: 24px;
-        background: none;
-        cursor: pointer;
-        padding: 17px 28px 17px 28px;
-        text-align: center;
+    .Main_page-two_header {
+        padding-top: 39px;
+        
 
     }
 
-
-
-    /* ==================================Footer =======================*/
-
-
-    .Footer {
-        background-color: #000000;
-        padding: 33px;
-    }
-
-    .Footer_block {
-        width: 379px;
+    .Main_page-two_headerh1{
         margin: 0 auto;
-        display: flex;
+        width: 173px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 35px;
         text-align: center;
-        align-items: center;
-        gap: 10px;
+        letter-spacing: 0.714285px;
+        color: #28303D;
+
     }
 
-    .Footer_copyright {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 20px;
-        letter-spacing: 0.321429px;
-
-        color: #FFFFFF;
+    .Main_page-two_Information-bar {
+        max-width: 300px;
+        margin: 38px 13px 0px 7px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 23px;
     }
 
-    .Footer_year {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 20px;
-        letter-spacing: 0.321429px;
-
-        color: #FFFFFF;
+    .Information-bar:nth-child(even) {
+        display: none;
     }
 
-    .Footer_line {
-        height: 14px;
-        width: 2px;
-        background-color: #FFFFFF;
-        border-radius: 1px;
+
+    .Information-bar {
+        width: 300px;
     }
 
-    .Footer_txt {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 20px;
-        letter-spacing: 0.321429px;
-        color: #FFFFFF;
+    .Information-bar_Pic {
+        width: 300px;
     }
+
+    .Information-bar_text {
+        margin: 22px 20px 20px 16px;
+    }
+
+
+    .Main_page-two_button {
+        margin: 64px 0 54px 88px;
+    }
+
+    .Information-bar_date {
+        margin: 0px 0px 10px 20px;
+    }
+
+}
+
+
+
+
+/* ================+++Adaptive_Block-Two+++=================================== */
+
+
+
+/* ==================================Main_block-Page third =======================*/
+
+.Main_page-three {
+    z-index: 1;
+    position: relative;
+    padding: 185px 140px;
+}
+
+.vector1 {
+    position: absolute;
+    z-index: -1;
+    left: 69.17%;
+    right: 0%;
+    top: 0%;
+    bottom: 50.67%;
+}
+
+.Main_page-three_blocks {
+    display: flex;
+    gap: 136px;
+
+}
+
+.Main_page-three_text-block {
+    display: flex;
+}
+
+
+.Main_page-three_text-blocks {}
+
+.Main_page-three_text-block_h1 {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #28303D;
+    margin-bottom: 61px;
+}
+
+.Main_page-three_text-block {
+    display: flex;
+    gap: 40px;
+    margin: 0px 0px 34px 0px;
+
+}
+
+
+
+.Main_page-three_text-block_books-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.Main_page-three_text-block_name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.321429px;
+    color: #28303D;
+    margin: 0px 0px 10px 0px;
+}
+
+
+.Main_page-three_text-block_autors {
+    margin: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #28303D;
+    margin: 0px 0px 8px 0px;
+}
+
+.Main_page-three_text-block_download {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    text-decoration-line: underline;
+    color: #28303D;
+}
+
+.Main_page-three_button {
+    margin: 19px 0px 0px 0px;
+}
+
+.Button {}
+
+.Main_page-three_photo {}
+
+.Main_photo {}
+
+/* ==================================Main_block-Page fourth =======================*/
+
+.Main_page-four {
+    max-width: 1440px;
+    padding: 20px 0px 101px 0px;
+}
+
+.Main_page-four_h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.714285px;
+    color: #28303D;
+    margin-bottom: 43px;
+}
+
+.Main_page-four_search-panel {
+    width: 760px;
+    margin: 0 auto 94px auto;
+    border: 1px solid #85888D;
+    border-radius: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+
+.Main_page-four_search-panel_text {
+    border: 0px;
+    background: none;
+    outline: none;
+    margin-left: 21px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #85888D;
+
+}
+
+.Main_page-four_search-panel_dropdown {
+    border: 0px;
+    background: none;
+    cursor: pointer;
+    margin-left: auto;
+    display: flex;
+    gap: 13.59px;
+    align-items: center;
+}
+
+.Main_page-four_search-panel_search-button {
+    margin: 7px 7px 5px 13.59px;
+}
+
+.Main_page-four_search-panel_arrow {
+    margin: 0px 0px 0px 13.59px;
+}
+
+.Main_page-four_workers {
+    margin-left: 140px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 40px;
+}
+
+.Main_page-four_worker_info {
+    max-width: 360px;
+    margin-top: 62px;
+    background: #FFFFFF;
+    border: 1px solid #85888D;
+    border-radius: 16px;
+    z-index: -1;
+    position: relative;
+}
+
+.Main_page-four_worker_photo {
+    position: absolute;
+    z-index: 1;
+    right: 72.92%;
+    top: -30%;
+    left: 30%;
+}
+
+.Main_page-four_worker_name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.321429px;
+    color: #28303D;
+}
+
+.Main_page-four_worker_post {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #13294E;
+}
+
+.Main_page-four_worker_email {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #00B9F2;
+}
+
+
+.Main_page-four_worker_info-txt {
+    display: flex;
+    flex-direction: column;
+    margin: 101px 20px 29px 20px;
+    max-width: 320px;
+}
+
+
+/* ==================================Main_block-Page fifth =======================*/
+
+
+.Main_page-five {
+    background: #77C043;
+    padding-top: 52px;
+}
+
+.Main_page-five_h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.714285px;
+    color: #FFFFFF;
+    margin-bottom: 53px;
+}
+
+.Main_page-five_units-block {
+    width: 1160px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 140px;
+    column-gap: 40px;
+    row-gap: 32px;
+}
+
+.Main_page-five_unit {
+    max-width: 360px;
+    background: white;
+    box-shadow: 0px 11px 35px rgba(0, 0, 0, 0.05);
+    border-radius: 16px 0px 16px 16px;
+}
+
+.Main_page-five_unit_name {
+    max-height: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.321429px;
+    color: #28303D;
+    margin: 27px 18px 41px 23px;
+}
+
+.Main_page-five_unit_name-DKO {
+    max-height: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.321429px;
+    color: #28303D;
+    margin: 27px 18px 21px 23px;
+}
+
+
+.Main_page-five_unit_block-address-number {
+    display: flex;
+    margin-bottom: 38px;
+}
+
+.Main_page-five_unit_line {
+    margin: 0 11px 0px 27px;
+    background: #77C043;
+    border: 4px;
+    width: 3px;
+    height: 75px;
+}
+
+.Main_page-five_unit_address-number_txt {}
+
+.Main_page-five_unit_address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #28303D;
+    width: 210px;
+    margin-bottom: 14px;
+
+
+}
+
+.Main_page-five_unit_number {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.321429px;
+    color: #28303D;
+}
+
+
+.Main_page-five_button {
+    width: 208px;
+    margin: 52px 0px 64px 616px;
+    top: 85.5%;
+    bottom: 8%;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 24px;
+    color: #FFFFFF;
+}
+
+
+
+/* ==================================Main_block-Page six =======================*/
+
+
+
+.Main_page-six {
+    position: relative;
+    z-index: 1;
+}
+
+.Main_page-six_vector {
+    position: absolute;
+    z-index: -1;
+    left: 69.17%;
+    bottom: 33.65%;
+}
+
+.Main_page-six_block {
+    margin: 69px 0px 121px 0px;
+    gap: 67px;
+    display: flex;
+}
+
+.Main_page-six_photo {}
+
+.Main_page-six_text-block {
+    width: 544px;
+    margin-left: 140px;
+}
+
+.Main_page-six_text-block_h1 {
+    margin-top: 233px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #28303D;
+}
+
+.Main_page-six_text-block_txt {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #000000;
+
+
+    margin: 28px 0px 0px 0px;
+}
+
+.text {}
+
+.Main_page-six_text-block_button {
+    margin: 58px 17px 0px 0px;
+}
+
+.Button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    border: 1.5px solid #85888D;
+    border-radius: 24px;
+    background: none;
+    cursor: pointer;
+    padding: 17px 28px 17px 28px;
+    text-align: center;
+
+}
+
+
+
+/* ==================================Footer =======================*/
+
+
+.Footer {
+    background-color: #000000;
+    padding: 33px;
+}
+
+.Footer_block {
+    width: 379px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.Footer_copyright {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.321429px;
+
+    color: #FFFFFF;
+}
+
+.Footer_year {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.321429px;
+
+    color: #FFFFFF;
+}
+
+.Footer_line {
+    height: 14px;
+    width: 2px;
+    background-color: #FFFFFF;
+    border-radius: 1px;
+}
+
+.Footer_txt {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.321429px;
+    color: #FFFFFF;
+}
