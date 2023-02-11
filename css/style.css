@@ -1970,3 +1970,27 @@ button {
     letter-spacing: 0.321429px;
     color: #FFFFFF;
 }
+
+
+
+@media (max-width: 461px){
+    .Footer_block{
+        margin-left: 10px;
+    }
+    
+
+}
+
+
+@media (max-width: 321px){
+    .Footer_block{
+        width: 300px;
+        margin-left: 10px;
+        text-align: left;
+
+    }
+    .Footer{
+        padding:10px;
+    }
+
+}
